@@ -23,6 +23,7 @@ int main(){
 	cout << " Enter a series of numbers between 0 and 15"
 	     << " sparated by space. Hit ENTER when finished: " << endl;
 	string result;
+	// size_type is unsigned int, no related with different machine
 	string::size_type n;
 	while(cin >> n)
 	{
